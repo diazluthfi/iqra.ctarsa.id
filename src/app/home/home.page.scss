@@ -1,0 +1,55 @@
+ion-row{
+
+img{
+    display: block;
+}
+ion-header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    img{
+        width: 25%;
+        padding: 15px;
+        margin-left: 15px;
+    }
+    ion-title{
+        font-size: small;
+        align-items: center;
+        color: #fff;
+    }
+}
+}
+
+.card-custom{
+    position: absolute;
+    top: 80px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}   
+
+
+.menu-top{
+    border-radius: 38px;
+    padding: 15px;
+    img{
+        border-radius: 38px;
+    }
+}    
+
+.menu-bot{
+   padding: 10px;
+    img{
+        border-radius: 20px;
+    }
+    ion-label{
+        font-size: 12.5px;
+        font-weight: 600;
+        text-align: center;
+       color: #0E1318;
+        
+    }
+    
+
+}
